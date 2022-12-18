@@ -16,11 +16,12 @@ class LinkedList<T> {
             head.toString()
         }
     }
-    fun push(value: T){
+    fun push(value: T):LinkedList<T>{
         head = Node(value = value, nextNodeReference = head)
         if (tail == null){
             tail = head
         }
         size++
+        return this
     }
 }
