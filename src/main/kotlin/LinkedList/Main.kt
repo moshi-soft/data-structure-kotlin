@@ -1,8 +1,10 @@
+package LinkedList
+
 fun main() {
 //    "creating and linking nodes" example{
-    /* val node1 = Node(value = 1)
-     val node2 = Node(value = 2)
-     val node3 = Node(value = 3)
+    /* val node1 = LinkedList.Node(value = 1)
+     val node2 = LinkedList.Node(value = 2)
+     val node3 = LinkedList.Node(value = 3)
 
      node1.nextNodeReference=node2
      node2.nextNodeReference=node3
